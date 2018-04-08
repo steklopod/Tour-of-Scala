@@ -45,25 +45,3 @@ object CaseClassMatching extends App {
   //  println(opt(6))
 
 }
-
-/**
-  * extractors, unapply
-  */
-object Twice {
-  def unapply(num: Int): Option[Int] = if (num % 2 == 0)
-    Some(num / 2) else None
-}
-
-object TwiceExample extends App {
-  val x = 34
-  x match {
-    case Twice(n) => println(s"Twice $n")
-    case _ => println("Not twice")
-  }
-  println(x)
-
-}
-
-
-
-
