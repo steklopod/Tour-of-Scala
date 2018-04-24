@@ -1,4 +1,4 @@
-package wtf.scala.FUNCTIONS
+package FUNCTIONS
 
 
 class Matching {
