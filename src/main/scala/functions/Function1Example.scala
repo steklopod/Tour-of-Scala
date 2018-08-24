@@ -1,9 +1,7 @@
 package functions
 
-class Anonimous {
-}
 
-trait Animal {
+sealed trait Animal {
   def sound(): Unit
 }
 
