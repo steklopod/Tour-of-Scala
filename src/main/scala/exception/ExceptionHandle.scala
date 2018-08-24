@@ -1,4 +1,4 @@
-package FUNCTIONS
+package exception
 
 class ExceptionHandle {
   val x = try {
@@ -24,7 +24,6 @@ object PartialFunctionClass extends App {
 }
 
 
-// >>>
 object ExceptionEx_02 extends App {
 
   //  TODO - изучить

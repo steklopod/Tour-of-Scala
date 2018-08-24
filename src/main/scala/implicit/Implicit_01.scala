@@ -1,4 +1,4 @@
-package FUNCTIONS.`implicit`
+package `implicit`
 
 
   object Implicit_01 extends App {

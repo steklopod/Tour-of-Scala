@@ -1,4 +1,4 @@
-package FUNCTIONS
+package functions
 
 object Fibonachi extends App {
 

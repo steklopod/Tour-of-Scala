@@ -1,4 +1,4 @@
-package FUNCTIONS
+package functions
 
 object PartialTryCatch extends App{
 
