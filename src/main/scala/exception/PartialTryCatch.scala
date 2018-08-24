@@ -1,4 +1,4 @@
-package functions
+package exception
 
 object PartialTryCatch extends App{
 
@@ -8,7 +8,6 @@ object PartialTryCatch extends App{
   def handleNpe: PartialFunction[Throwable, Any] = {
     case iae: NullPointerException => println("Got npe")
   }
-
   try{
     println(1/0)
   }
