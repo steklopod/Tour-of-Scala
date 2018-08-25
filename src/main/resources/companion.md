@@ -1,9 +1,12 @@
 ## Объект компаньен
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/girl.png "GIRL")
+>Вопрос:
+
 Когда необходим `объект-компаньон` _(singleton)_ для класса? Почему я хочу создать класс, скажем, 
 `Foo` а также создать для него объект-компаньон?
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/girl.png "GIRL")
 
+>Ответ:
 
 `Объект-компаньон` в основном обеспечивает место, где можно ставить `статические методы`. 
 Кроме того, _`сопутствующий объект`_ или _`сопутствующий модуль`_ имеет полный доступ к членам класса, включая частные.
@@ -31,3 +34,18 @@
     val vs = AbstractClass("asdf")  // дает вам RealThing вещь, обернутую поверх строки
     val vi = AbstractClass(123)   // дает вам AlternativeThing, обернутую поверх числа
 ```
+
+#### _еще пример:_
+
+<!-- code -->
+```scala
+    class Person(val firstName: String, val middleName: String, val lastName: String) {}
+    
+    object Person {
+      def apply(firstName: String, lastName: String) = new Person(firstName, "", lastName)
+      def apply(firstName: String)                   = new Person(firstName, "", "")
+    }
+    
+    val p = Person("Дима", "Колтович")
+```
+
