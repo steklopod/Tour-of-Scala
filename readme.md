@@ -6,6 +6,8 @@
 
 * трейты
 
+* [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/companion.md)
+
 * коллекции
 
 * обработка исключений

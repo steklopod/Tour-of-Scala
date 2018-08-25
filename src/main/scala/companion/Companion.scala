@@ -1,0 +1,6 @@
+package companion
+
+object Companion {
+
+
+}
