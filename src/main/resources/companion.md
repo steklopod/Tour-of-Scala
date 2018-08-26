@@ -208,3 +208,26 @@ object Pizza {
           println(Foo.double(f))  // prints 4
       }
 ```
+
+Аналогично, в следующем коде член экземпляра `printObj` может обращаться к частному полю `obj` 
+объекта `Foo`:
+
+<!-- code -->
+```scala
+    class Foo {
+        // доступ к приватному полю объекта 'obj'
+        def printObj { println(s"I can see ${Foo.obj}") }
+    }
+    
+    object Foo {
+        private val obj = "Foo's object"
+    }
+    
+    object Driver extends App {
+        val f = new Foo
+        f.printObj
+    }
+```
+
+
+
