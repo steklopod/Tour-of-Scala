@@ -226,3 +226,5 @@ object Pizza {
         f.printObj
     }
 ```
+
+[<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
