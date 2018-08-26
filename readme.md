@@ -2,8 +2,14 @@
 
 Данный проект поможет вам разобраться в лучшем языке программирования - Скала.
 
-Пройдя по ссылкам вы увидите описания с примерами. Весь код из примеров разбит по пакетам в папке 
-`...\Functions\src\main\scala\`. Для каждого примера существует тест.
+Пройдя по ссылкам вы увидите описания с примерами. 
+
+Весь код из примеров разбит по пакетам в папке `...\Functions\src\main\scala\`.
+ 
+Для каждого примера существует тест.
+
+![alt text](http://www.scala-lang.org/resources/img/scalasphere.png "SCALA")
+
 
 * [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/companion.md)
 
@@ -23,6 +29,4 @@
 
 * подразумеваемые преобразования и параметры
 
-
-![alt text](http://www.scala-lang.org/resources/img/scalasphere.png "SCALA")
 
