@@ -1,5 +1,6 @@
 package companion
 
+
 object Companion {
 
   class Person(val firstName: String, val middleName: String, val lastName: String) {
@@ -51,4 +52,57 @@ object AnimalTest extends App{
   new Cat
 }
 
+//3 пример//////////////////////////
+class Pizza (var crustType: String) {
+  override def toString = "тип теста: " + crustType
+}
+object Pizza {
+  val CRUST_TYPE_THIN = "тонкая"
+  val CRUST_TYPE_THICK = "толстая"
+  def getFoo = "Foo"
+}
+
+object PizzaTest extends App{
+  println(Pizza.CRUST_TYPE_THIN)
+  println(Pizza.getFoo)
+
+  var p = new Pizza(Pizza.CRUST_TYPE_THICK)
+  println(p)
+}
+
+//3.1 пример/////////Доступ к частным членам
+class Foo {
+  private val secret = 2
+}
+
+object Foo {
+  // доступ к приватному полю класса 'secret'
+  def double(foo: Foo) = foo.secret * 2
+}
+
+object Driver extends App {
+  val f = new Foo
+  println(Foo.double(f))  // prints 4
+}
+
+//3.2 пример/////////////////////////////////
+object SomeS {
+
+  class Foo2 {
+    // доступ к приватному полю объекта 'obj'
+    def printObj {
+      println(s"I can see ${Foo2.obj}")
+    }
+  }
+  object Foo2 {
+    private val obj = "Foo2's object"
+  }
+}
+
+object SomeSTest extends App {
+  import companion.SomeS.Foo2
+
+  val f = new Foo2
+  f.printObj
+}
 
