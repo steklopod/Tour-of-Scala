@@ -25,7 +25,7 @@
 
 * [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/genericity.md)
 
-* трейты
+* [Scala и пустота](https://github.com/steklopod/Functions/blob/master/src/main/resources/unit_nothing_null.md)
 
 * коллекции
 
