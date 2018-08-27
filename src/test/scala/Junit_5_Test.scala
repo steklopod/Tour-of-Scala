@@ -13,8 +13,7 @@ class Junit_5_Test extends JUnitSuite with Matchers with BeforeAndAfterAll{
   }
 
   @Test
-  @Ignore
-  @DisplayName("Example with JUnitSuite and ShouldMatchersForJUnit")
+  @DisplayName("Example with JUnitSuite")
   def throwsExceptionWhenCalled_With_JUnitSuite() {
     import ExceptionTest._
     assertThrows[RuntimeException]{ throwRunEx}

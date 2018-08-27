@@ -5,6 +5,7 @@ class ExceptionHandle {
     Integer.parseInt("10")
   } catch {
     case ex: Exception => 0
+    case _: IllegalArgumentException => println("Got some other kind of exception")
   }
 
 }
@@ -26,7 +27,6 @@ object PartialFunctionClass extends App {
 
 object ExceptionEx_02 extends App {
 
-  //  TODO - изучить
   import scala.util.control.Exception._
 
   def assertPos(x: Int): Int =
