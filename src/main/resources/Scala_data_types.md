@@ -45,3 +45,4 @@
 В совокупности `Byte`, `Short`, `Int`, `Long` и `Char` называются **интегральными типами**. 
 `Интегральные типы` плюс `Float` и `Double` называются **числовыми типами**. 
 
+[<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
