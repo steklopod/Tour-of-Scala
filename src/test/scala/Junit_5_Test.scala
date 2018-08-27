@@ -1,10 +1,11 @@
+import org.junit.Ignore
 import org.junit.jupiter.api.{DisplayName, Test}
 import org.junit.runner.RunWith
-import org.scalatest.Matchers
 import org.scalatest.junit.{JUnitRunner, JUnitSuite}
+import org.scalatest.{BeforeAndAfterAll, Matchers}
 
 @RunWith(classOf[JUnitRunner])
-class Junit_5_Test extends JUnitSuite with Matchers{
+class Junit_5_Test extends JUnitSuite with Matchers with BeforeAndAfterAll{
 
   object ExceptionTest {
     @throws(classOf[RuntimeException])
@@ -12,6 +13,7 @@ class Junit_5_Test extends JUnitSuite with Matchers{
   }
 
   @Test
+  @Ignore
   @DisplayName("Example with JUnitSuite and ShouldMatchersForJUnit")
   def throwsExceptionWhenCalled_With_JUnitSuite() {
     import ExceptionTest._
