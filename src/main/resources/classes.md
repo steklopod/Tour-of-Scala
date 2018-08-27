@@ -36,31 +36,28 @@
 
 ### Особенности классов
 
-Давайте опишем несложный класс. Пусть это будет комлексное число. Создадим следующий код:
+Давайте опишем несложный класс. Пусть это будет `комлексное число`:
 
 <!-- code -->
 ```scala
     class Complex(r: Double, i: Double) {
-     def real = r
-     def image = i
-     def magnitude = Math.sqrt(r*r + i*i)
-     def angle = Math.atan2(i, r)
-     
+     def real              = r
+     def image             = i
+     def magnitude         = Math.sqrt(r*r + i*i)
+     def angle             = Math.atan2(i, r)
      def + (that: Complex) = new Complex(this.real + that.real, this.image + that.image)
      
-     override def toString = real+" + i*"+image+" | "+magnitude+"*e^(i*"+angle+"))"
+     override def toString = real+ " + i*" +image + " | " + magnitude + "*e^(i*" + angle + "))"
     }
     
-    object Main {
-     def main(args:Array[String]) :Unit = {
-      val first = new Complex(1, 5)
+    object Main extends App {
+      val first  = new Complex(1, 5)
       val second = new Complex(2, 4)
-      val sum = first + second
-      println(first)
-      println(second)
-      println(sum)
+      val sum    = first + second
+          println(first)
+          println(second)
+          println(sum)
      }
-    }
 ```
 * Во-первых, клас объявлен с какими-то параметрами. Как несложно догадаться по продолжению, это параметры конструктора, 
 которые доступны всё время жизни объекта.
@@ -84,8 +81,8 @@
 <!-- code -->
 ```scala
     class Complex(val real: Double, val image: Double) extends Ordered[Complex] {
-      def magnitude            = Math.sqrt(real * real + image * image)
-      def angle                = Math.atan2(image, real)
+      def magnitude                   = Math.sqrt(real * real + image * image)
+      def angle                       = Math.atan2(image, real)
       def +(that: Complex)            = new Complex(this.real + that.real, this.image + that.image)
       def compare(that: Complex): Int = this.magnitude compare that.magnitude
   
