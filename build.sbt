@@ -5,7 +5,8 @@ version := "0.1"
 scalaVersion := "2.12.5"
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.0.5" % "test",
+  "org.scalatest" %% "scalatest" % "3.2.0-SNAP10" % Test,
+  //"org.scalatest" %% "scalatest" % "3.0.5" % "test",
   "org.scalacheck" %% "scalacheck" % "1.13.5" % "test",
   "com.storm-enroute" %% "scalameter" % "0.9" % "test" excludeAll ExclusionRule(organization = "org.mongodb"),
   "com.typesafe.akka" %% "akka-actor" % "2.5.11",
@@ -42,7 +43,16 @@ libraryDependencies ++= Seq(
   //  "com.h2database" % "h2" % "1.4.197" % Test,
   "com.h2database" % "h2" % "1.4.197",
   "junit" % "junit" % "4.12" % Test,
+  "org.junit.jupiter" % "junit-jupiter-api" % "5.2.0" % Test,
+  "org.junit.jupiter" % "junit-jupiter-engine" % "5.2.0" % Test,
+  "org.junit.jupiter" % "junit-jupiter-params" % "5.2.0" % Test,
+  "org.junit.platform" % "junit-platform-launcher" % "1.2.0" % Test,
+  "org.junit.platform" % "junit-platform-engine" % "1.2.0" % Test,
+  "org.junit.platform" % "junit-platform-runner" % "1.2.0" % Test,
+
   "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.1"
+
+
 )
 
 testFrameworks += new TestFramework("org.scalameter.ScalaMeterFramework")
