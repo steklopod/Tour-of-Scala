@@ -15,11 +15,13 @@
 
 * [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/Scala_data_types.md)
 
-* [Классы, композиция и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/classes.md)
+* [Классы, и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/classes.md)
 
 * [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/implicit.md.md)
 
 * [Кейс-классы и сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/case_class.md) 
+
+* [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/traits.md)
 
 * трейты
 
