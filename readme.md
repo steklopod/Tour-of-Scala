@@ -23,6 +23,8 @@
 
 * [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/traits.md)
 
+* [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/genericity.md)
+
 * трейты
 
 * коллекции
