@@ -15,9 +15,7 @@
 
 * [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/Scala_data_types.md)
 
-* основные типы и операции
-
-* классы и объекты, композиция и наследование
+* Классы и объекты, композиция и наследование
 
 * трейты
 
