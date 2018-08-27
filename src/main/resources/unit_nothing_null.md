@@ -135,4 +135,7 @@ _Например:_
 Поскольку `Non`e объявлен как `extends Option[Nothing]`, а `Nothing` – "самое нижнее ничто", то `None` может работать 
 с любыми типами (как с ссылочными так и с примитивными).
 
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/classes_ier.png "scala_classes")
+
+
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)

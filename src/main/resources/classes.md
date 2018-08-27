@@ -11,6 +11,7 @@
 ![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/classes_ier.png "scala_classes")
 
 ### Наследование
+
 Как и во всех других ООП языках программирования, в Scala поджерживается механизм наследования. 
 Для этого используется ключевое слово `extends`, как и в языка Java.
 Но, в Scala есть два ограничения:
