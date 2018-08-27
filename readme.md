@@ -15,7 +15,7 @@
 
 * [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/Scala_data_types.md)
 
-* Классы и объекты, композиция и наследование
+* [Классы, композиция и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/classes.md)
 
 * трейты
 

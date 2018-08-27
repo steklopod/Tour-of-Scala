@@ -1,6 +1,4 @@
-package OOP.object_example
-
-class Companion3_BinDis {}
+package companion
 
 object SomePerson {
   private val hello = "Hello"
