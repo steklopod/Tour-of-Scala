@@ -17,6 +17,8 @@
 
 * [Классы, композиция и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/classes.md)
 
+* [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/implicit.md.md)
+
 * трейты
 
 * коллекции
@@ -27,6 +29,6 @@
 
 * сопоставление с образцом и экстракторы 
 
-* подразумеваемые преобразования и параметры
+
 
 
