@@ -19,6 +19,8 @@
 
 * [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/implicit.md.md)
 
+* [Кейс-классы и сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/case_class.md) 
+
 * трейты
 
 * коллекции
@@ -27,7 +29,6 @@
 
 * частично определенные функции
 
-* сопоставление с образцом и экстракторы 
 
 
 
