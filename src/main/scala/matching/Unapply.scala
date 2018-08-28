@@ -1,11 +1,5 @@
 package matching
 
-class Unapply {}
-
-
-/**
-  * extractors, unapply
-  */
 object Twice {
   def unapply(num: Int): Option[Int] = if (num % 2 == 0)
     Some(num / 2) else None
@@ -21,9 +15,7 @@ object TwiceExample extends App {
 
 }
 
-/**
-  * Соастовление с образцом
-  */
+
 object Even {
   def unapply(num: Int): Boolean = num % 2 == 0
 }
@@ -35,9 +27,6 @@ object EvenExampe extends App {
   }
 }
 
-/**
-  * @note - unapplySeq Сопастовление с образцом
-  */
 
 object Domain {
   def unapplySeq(dom: String): Option[Seq[String]] =
@@ -51,5 +40,3 @@ object DomainExample extends App {
     case _ => println("other")
   }
 }
-
-//TODO - стр. 72

@@ -113,7 +113,6 @@
 ### Совпадение только по типу
 
 _Вы можете сопоставлять с типом как в след. примере:_
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/scala-control-structures.jpg?raw=true "scala-control-structures")
 
 <!-- code -->
 ```scala
@@ -135,5 +134,6 @@ _Вы можете сопоставлять с типом как в след. п
 Метод `goIdle` имеет различное поведение, в зависимости от типа устройства. Это полезно, когда сопоставление должно вызывать 
 метод в шаблоне. Существует соглашение **использовать первую букву типа в качестве идентификатора случая** (в данном случае - `p` и `c`).
 
-
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
+
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/scala-control-structures.jpg?raw=true "scala-control-structures")

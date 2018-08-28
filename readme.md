@@ -21,20 +21,21 @@
 
 * [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
 
-* [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
-
 * [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
 
 * [Сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/pattern_matching.md) 
 
+* [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
+
 * [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
+
+*[Регулярные выражения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/regex.md)
 
 * коллекции
 
 * обработка исключений
 
 * частично определенные функции
-
 
 
 
