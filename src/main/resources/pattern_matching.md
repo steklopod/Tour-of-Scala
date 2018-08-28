@@ -114,20 +114,21 @@ _Вы можете сопоставлять с типом как в след. п
 <!-- code -->
 ```scala
     abstract class Device
-    case class Phone(model: String) extends Device{
-      def screenOff = "Turning screen off"
+    
+    case class Phone(model: String)    extends Device{
+       def screenOff     = "Выключение экрана"
     }
     case class Computer(model: String) extends Device {
-      def screenSaverOn = "Turning screen saver on..."
+       def screenSaverOn = "Включение экранной заставки..."
     }
     
     def goIdle(device: Device) = device match {
-      case p: Phone => p.screenOff
+      case p: Phone    => p.screenOff
       case c: Computer => c.screenSaverOn
     }
 ```
 
-`def goIdle` имеет различное поведение, в зависимости от типа устройства. Это полезно, когда сопоставление должно вызывать 
+Метод `goIdle` имеет различное поведение, в зависимости от типа устройства. Это полезно, когда сопоставление должно вызывать 
 метод в шаблоне. Существует соглашение **использовать первую букву типа в качестве идентификатора случая** (в данном случае - `p` и `c`).
 
 

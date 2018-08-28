@@ -12,7 +12,7 @@ object TypeMatching {
   }
 
   def goIdle(device: Device) = device match {
-    case p: Phone => p.screenOff
+    case p: Phone    => p.screenOff
     case c: Computer => c.screenSaverOn
   }
 }
