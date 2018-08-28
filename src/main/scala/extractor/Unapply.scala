@@ -1,4 +1,4 @@
-package matching
+package extractor
 
 object Twice {
   def unapply(num: Int): Option[Int] = if (num % 2 == 0)

@@ -41,3 +41,9 @@
 ```
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
+
+[wiki](https://ru.wikipedia.org/wiki/Регулярные_выражения)
+
+[хабр](https://habr.com/post/115825/)
+
+[еще ссылка](http://developer.alexanderklimov.ru/regexp.php)

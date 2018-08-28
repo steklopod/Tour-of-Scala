@@ -1,14 +1,15 @@
 ## Добро пожаловать в мир функционального программирования вместе со Скала
 
-Данный проект поможет вам разобраться в лучшем языке программирования - Скала.
+Данный проект поможет вам разобраться в лучшем языке программирования на сегодняшний день.
 
-Пройдя по ссылкам вы увидите описания с примерами. 
-
-Весь код из примеров разбит по пакетам в папке `...\Functions\src\main\scala\`.
+Пройдя по ссылкам ты найдешь много полезной информации для изучения с примерами. Освоив принципы функционального 
+программирования, ты уже никогда не захочешь возвращаться в мир императивного программирования. Я собрал эти примеры для 
+тебя, мой друг, т.к. хочу чтобы сообщество Скала развивалось и увеличивалось. Выучить данный язык не составит труда. 
+Желаю тебе удачи в изучении. 
  
 Для каждого примера существует тест.
 
-![alt text](http://www.scala-lang.org/resources/img/scalasphere.png "SCALA")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/scala_vs_java?raw=true "implicit")
 
 
 * [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Scala_data_types.md)
@@ -31,11 +32,10 @@
 
 * [Регулярные выражения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/regex.md)
 
-* коллекции
+* [Экстракторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/extractors.md)
 
-* обработка исключений
 
-* частично определенные функции
+
 
 
 

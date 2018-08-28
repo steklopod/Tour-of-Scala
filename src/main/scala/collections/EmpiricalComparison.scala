@@ -3,10 +3,7 @@ package collections
 import scala.io.Source
 
 class EmpiricalComparison {
-
-//✔ Lecture 6.7 - Putting the Pieces Together (20:35) @done (14-06-03 21:24)
-//Example: convert phone numbers to sentences
-// (cf. Lutz Prechelt: An empirical comparison of seven programming languages)
+  //Example: convert phone numbers to sentences (cf. Lutz Prechelt: An empirical comparison of seven programming languages)
 
   val in = Source.fromURL("http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/progfun/linuxwords.txt")
   //> in  : scala.io.BufferedSource = non-empty iterator

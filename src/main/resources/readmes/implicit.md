@@ -45,6 +45,4 @@ _Рассмотрим простой пример:_
     Process finished with exit code 0
 ```
 
-
-
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
