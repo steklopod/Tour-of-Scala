@@ -25,7 +25,7 @@ _Если этот проект окажется полезным тебе - н�
 
 * [Сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/pattern_matching.md) 
 
-* [for-генеративная подстановка <-](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/for_comprehensions.md)
+* [for-генеративная подстановка](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/for_comprehensions.md)
 
 * [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
 

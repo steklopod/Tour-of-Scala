@@ -50,6 +50,75 @@ Int значение возвращаемое из get-метода. Также 
 она была объявлена как хранительница только Int'ов.
 ![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/scala-inheritance2.png "scala-inheritance")
 
+___
+
+Давайте рассмотрим еще один пример:
+
+**Общие классы** _(generic classes)_ - это классы, которые принимают тип в качестве параметра. Они особенно полезны для классов коллекций.
+
+### Определение общего класса
+
+Обобщенные классы берут `тип` в качестве параметра в квадратных скобках `[]`. Одним из условий является использование 
+буквы `A` в качестве идентификатора параметра типа, хотя **любое имя параметра может использоваться**.
+
+<!-- code -->
+```scala
+    class Stack[A] {
+      private var elements: List[A] = Nil
+      def push(x: A) { elements = x :: elements }
+      def peek: A = elements.head
+      def pop(): A = {
+        val currentTop = peek
+        elements = elements.tail
+        currentTop
+      }
+    }
+```
+
+Эта реализация класса `Stack` принимает любой `тип A в качестве параметра`. Это означает, 
+что базовый список, элементы `var elements: List[A] = Nil`, могут хранить только элементы типа `A`. Процедура 
+`def push` принимает только объекты типа `A` (примечание: `elements = x :: elements` переназначают `elements` в новый 
+список, созданный путем добавления `x` к текущим элементам). 
+
+### Использование:
+
+Чтобы использовать общий класс, поместите тип в квадратные скобки вместо `A`.
+
+<!-- code -->
+```scala
+    val stack = new Stack[Int]
+    stack.push(1)
+    stack.push(2)
+        println(stack.pop)  // prints 2
+        println(stack.pop)  // prints 1
+```
+
+Экземпляра класса `Stack` может принимать только данные. Однако, если аргумент типа имеет подтипы, они могут быть переданы в:
+
+<!-- code -->
+```scala
+    class Fruit
+    class Apple extends Fruit
+    class Banana extends Fruit
+    
+    val stack = new Stack[Fruit]
+    val apple = new Apple
+    val banana = new Banana
+    
+    stack.push(apple)
+    stack.push(banana)
+```
+
+Класс `Apple` и `Banana` расширяют `Fruit`, поэтому мы можем 'заталкивать' экземпляры яблока и банана в стэк `Fruit`.
+
+_Примечание: подтипирование родовых типов **инвариантно**. Это означает, что если у нас есть стек символов 
+типа `Stack[Char]`, то он не может использоваться как целочисленный стек типа `Stack[Int]`. Это было бы необоснованным, 
+потому что это позволило бы нам ввести истинные целые числа в стек символов. В заключение, `Stack[A]` является только 
+подтипом `Stack[B]` тогда и только тогда, когда `B = `. Так как это может быть довольно ограничительным,
+ Scala предлагает механизм аннотации параметра типа для управления подтипами поведением  обобщенных типов._
+
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/covariance.png "scala-inheritance")
+
 _Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
