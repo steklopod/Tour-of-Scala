@@ -1,8 +1,5 @@
 package OOP.classes
 
-class EnumerationSeason {
-}
-
 object Season extends Enumeration {
   val Winter, Spring, Summer,
   Autumn = Value

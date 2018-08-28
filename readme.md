@@ -19,7 +19,9 @@
 
 * [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/implicit.md.md)
 
-* [Кейс-классы и сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/case_class.md) 
+* [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/case_class.md)
+
+* [Сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/pattern_matching.md) 
 
 * [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/traits.md)
 
