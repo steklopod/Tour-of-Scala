@@ -66,4 +66,9 @@ _Например_, при вызове метода Java, который ожи
 
 _Если этот проект окажется полезным тебе - **нажми на кнопочку `star`** в правом верхнем углу._
 
-[<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
+[<= Неявные (подразумеваемые) классы и параметры](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
+
+[=> Где Скала ищет неявное](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/where_does_scala_look_for_implicits.md)
+
+
+[<== содержание](https://github.com/steklopod/Functions/blob/master/readme.md)

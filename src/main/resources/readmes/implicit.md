@@ -115,4 +115,6 @@ ___
 
 _Если этот проект окажется полезным тебе - **нажми на кнопочку `star`** в правом верхнем углу._
 
+[=> Неявные преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit_conversions.md)
+
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)

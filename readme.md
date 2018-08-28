@@ -29,6 +29,8 @@ _Если этот проект окажется полезным тебе - н�
 
 * [Неявные (подразумеваемые) классы и параметры](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
 
+* [Где Скала ищет неявное](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/where_does_scala_look_for_implicits.md)
+
 * [Неявные преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit_conversions.md)
 
 * [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
