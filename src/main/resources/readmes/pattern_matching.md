@@ -1,5 +1,5 @@
 ## Сопоставление с образцом
-![alt text](http://www.scala-lang.org/resources/img/pattern-matching-syntax.png "pattern-matching-syntax")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/case_class/pattern-matching-syntax.png "pattern-matching-syntax")
 
 **Сопоставление с образцом** - это механизм проверки значения по шаблону. Успешое совпадение также может деконструировать 
 значение в его составные части. Это более мощная версия оператора _switch_ в Java, и его также можно использовать вместо
@@ -40,7 +40,7 @@
 
 ### Сопоставление кейс-классов
 
-![alt text](http://www.scala-lang.org/resources/img/basicPattern.png "basicPattern")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/case_class/basicPattern.png "basicPattern")
 
 Кейс-классы особенно полезны для `паттерн-матчинга`.
 

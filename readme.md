@@ -15,6 +15,8 @@
 
 * [Классы, и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/classes.md)
 
+* [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
+
 * [Scala и пустота](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
 
 * [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
@@ -24,8 +26,6 @@
 * [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
 
 * [Сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/pattern_matching.md) 
-
-* [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
 
 * [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
 

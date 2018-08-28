@@ -11,7 +11,7 @@
 
 * Скрытый класс может принимать только один не скрытый аргумент и конструктор.
 
-![alt text](http://www.scala-lang.org/resources/img/implicit.jpg "implicit")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/implicit.jpg?raw=true "implicit")
 
 _Рассмотрим простой пример:_
 

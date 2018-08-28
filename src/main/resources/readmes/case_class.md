@@ -27,7 +27,7 @@ _Кейс-классы_ хороши для моделирования неиз�
 Вы не можете переопределить `message1.sender`, потому что это `val` (т.е. неизменяемый). В случае классов можно 
 использовать `var`, но **это не рекомендуется**.
 
-![alt text](http://www.scala-lang.org/resources/img/case_class.png "SCALA")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/case_class.png?raw=true "case_class")
 
 ### Сравнение
 
