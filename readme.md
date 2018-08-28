@@ -9,7 +9,7 @@
  
 Для каждого примера существует тест.
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/scala_vs_java?raw=true "implicit")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/scala_vs_java.png?raw=true "scala_vs_java")
 
 
 * [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Scala_data_types.md)
