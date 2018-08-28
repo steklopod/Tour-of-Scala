@@ -2,7 +2,7 @@
 
 >Вопрос:
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/girl.png "GIRL")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/girl.png "GIRL")
 Когда необходим `объект-компаньон` _(singleton)_ для класса? Почему я хочу создать класс, скажем, 
 `Foo` а также создать для него объект-компаньон?
 
@@ -100,7 +100,7 @@ _Вот простой пример:_
     2 cats created so far
 ```
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/girl.png "GIRL")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/girl.png "GIRL")
 ### Как создать статические элементы в Скала?
 
 _Это выдержка из **Поваренной книги Scala** (частично измененной для Интернета). 
@@ -183,7 +183,7 @@ object Pizza {
 
 * Определите нестатические (экземпляры) членов в классе.
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/girl.png "GIRL")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/girl.png "GIRL")
 #### Доступ к приватным полям
 
 Также важно знать, что класс и его сопутствующий объект могут обращаться к частным членам друг друга.

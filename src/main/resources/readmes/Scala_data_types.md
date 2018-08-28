@@ -1,6 +1,6 @@
 ## Типы данных в Скала
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/girl.png "GIRL")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/girl.png "GIRL")
 Каковы типы данных Scala? Сколько бит они используют для хранения своих данных? Каков диапазон этих типов данных?
 
 

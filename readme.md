@@ -11,23 +11,23 @@
 ![alt text](http://www.scala-lang.org/resources/img/scalasphere.png "SCALA")
 
 
-* [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/companion.md)
+* [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
 
-* [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/Scala_data_types.md)
+* [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Scala_data_types.md)
 
-* [Классы, и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/classes.md)
+* [Классы, и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/classes.md)
 
-* [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/implicit.md.md)
+* [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md.md)
 
-* [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/case_class.md)
+* [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
 
-* [Сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/pattern_matching.md) 
+* [Сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/pattern_matching.md) 
 
-* [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/traits.md)
+* [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
 
-* [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/genericity.md)
+* [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
 
-* [Scala и пустота](https://github.com/steklopod/Functions/blob/master/src/main/resources/unit_nothing_null.md)
+* [Scala и пустота](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
 
 * коллекции
 

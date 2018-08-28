@@ -8,7 +8,7 @@
 Используя этот протокол они могут получить необходимую информацию от потомка и реализовать в нём некоторое поведение. 
 Соответственно, любой класс (или объект) может наследоваться от произвольного количества trait'ов (и лишь от одного class'а).
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/classes_ier.png "scala_classes")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/classes_ier.png "scala_classes")
 
 ### Наследование
 

@@ -2,7 +2,7 @@
 
 ### Null
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/n.png?raw=true "nothing")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/n.png?raw=true "nothing")
 **Null** – это [типаж (trait)](https://github.com/steklopod/Functions/blob/master/src/main/resources/traits.md). Объект `null` (с маленькой буквы) — это как раз и есть объект типа `Null`. 
 Он находится **внизу иерархии** типов в Scala, в противовес `AnyRef`.
 Благодаря этому вы всегда можете как-бы "занулить" любую ссылку, т.е. присвоить ссылки значение `null`:
@@ -135,7 +135,7 @@ _Например:_
 Поскольку `Non`e объявлен как `extends Option[Nothing]`, а `Nothing` – "самое нижнее ничто", то `None` может работать 
 с любыми типами (как с ссылочными так и с примитивными).
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/classes_ier.png "scala_classes")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/classes_ier.png "scala_classes")
 
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
