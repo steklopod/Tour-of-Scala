@@ -27,7 +27,9 @@ _Если этот проект окажется полезным тебе - н�
 
 * [for-генеративная подстановка](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/for_comprehensions.md)
 
-* [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
+* [Неявные (подразумеваемые) классы и параметры](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
+
+* [Неявные преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit_conversions.md)
 
 * [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
 
