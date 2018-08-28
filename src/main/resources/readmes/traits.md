@@ -4,7 +4,7 @@
 
 Кроме наследования от суперкласса, в Scala классы также могут наследовать код из одного или несколько `типажей (traits`).
 
-![alt text](http://www.scala-lang.org/resources/img/trait.png "trait")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/trait.png "trait")
 
 Возможно, наиболее простой способ для понимания типажей Java-программистами это "закрыть глаза и представить, что есть 
 интерфейсы, которые могут содержать методы с кодом...". Так вот эти сущности и будет аналогом типажей.  

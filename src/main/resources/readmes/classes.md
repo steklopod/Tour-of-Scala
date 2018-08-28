@@ -166,6 +166,6 @@ _«Всё это хорошо» — скажет бывалый боец аут�
 Насколько я знаю в Scala это второй хак (первый — преобразование `()` в вызов метода `apply`), как Гвидо завещал c 
 неявным преобразованием использования оператора в вызов метода.
 
-* [=> Типаж (trait)](https://github.com/steklopod/Functions/blob/master/src/main/resources/traits.md)
+* [=> Типаж (trait)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)

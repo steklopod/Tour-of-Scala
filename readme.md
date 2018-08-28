@@ -11,13 +11,15 @@
 ![alt text](http://www.scala-lang.org/resources/img/scalasphere.png "SCALA")
 
 
-* [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
-
 * [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Scala_data_types.md)
 
 * [Классы, и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/classes.md)
 
-* [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md.md)
+* [Scala и пустота](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
+
+* [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
+
+* [Подразумеваемые преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
 
 * [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
 
@@ -26,8 +28,6 @@
 * [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
 
 * [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
-
-* [Scala и пустота](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
 
 * коллекции
 

@@ -36,8 +36,7 @@
 ```
 
 Если вы определяете **класс и объект** в одном файле с тем же именем, они называются `сопутствующим классом 
-и объектом`. Scala не имеет статического слова как JAVA, вы можете использовать в качестве замены 
-`объект-компаньон` в Scala.
+и объектом`. Scala не имеет слова `static` как в JAVA, вы можете использовать в качестве замены `объект-компаньон` в Scala.
 
 ![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/companion.png "Обобщения")
 
@@ -105,11 +104,6 @@ _Вот простой пример:_
 
 ![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/girl.png "GIRL")
 ### Как создать статические элементы в Скала?
-
-_Это выдержка из **Поваренной книги Scala** (частично измененной для Интернета). 
-Рецепт 6.6, «Как создать статические члены с объектами-компаньонами Scala»._
-
-#### Проблема
 
 Вы хотите создать класс, который имеет как `методы экземпляра`, так и `статические методы`, 
 но в отличие от Джава, **Скала не имеет ключевого слова `static`**.
@@ -186,7 +180,6 @@ object Pizza {
 
 * Определите нестатические (экземпляры) членов в классе.
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/girl.png "GIRL")
 #### Доступ к приватным полям
 
 Также важно знать, что класс и его сопутствующий объект могут обращаться к частным членам друг друга.
@@ -198,9 +191,8 @@ object Pizza {
       class Foo {
           private val secret = 2
       }
-      
       object Foo {
-          // доступ к приватному полю класса 'secret'
+          // доступ к приватному полю 'secret' класса Foo
           def double(foo: Foo) = foo.secret * 2
       }
       
@@ -219,7 +211,6 @@ object Pizza {
         // доступ к приватному полю объекта 'obj'
         def printObj { println(s"I can see ${Foo.obj}") }
     }
-    
     object Foo {
         private val obj = "Foo's object"
     }

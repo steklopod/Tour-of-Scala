@@ -45,7 +45,7 @@
 Это упрощает преобразование этих типов Scala в соответствующие им примитивные типы Java.
 
 
-![alt text](http://www.scala-lang.org/resources/img/datatypes.png "datatypes")
+![alt text](http://www.scala-lang.org/resources/img/datatypes.jpg "datatypes")
 
 В совокупности `Byte`, `Short`, `Int`, `Long` и `Char` называются **интегральными типами**. 
 `Интегральные типы` плюс `Float` и `Double` называются **числовыми типами**. 
