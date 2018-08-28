@@ -29,7 +29,7 @@
 
 * [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
 
-*[Регулярные выражения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/regex.md)
+* [Регулярные выражения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/regex.md)
 
 * коллекции
 
