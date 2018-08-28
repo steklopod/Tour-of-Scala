@@ -70,16 +70,16 @@ _Вот простой пример:_
     }
     
     abstract class Animal {
-      def companion: AnimalCounter
-      companion.count()
+      def OOP.companion: AnimalCounter
+      OOP.companion.count()
     }
     
-    class  Dog extends Animal { def companion = Dog }
+    class  Dog extends Animal { def OOP.companion = Dog }
     object Dog extends AnimalCounter {
       val name = "dog"
     }
     
-    class  Cat extends Animal { def companion = Cat }
+    class  Cat extends Animal { def OOP.companion = Cat }
     object Cat extends AnimalCounter {
       val name = "cat"
     }
@@ -124,7 +124,7 @@ class Pizza (var crustType: String) {
     override def toString = "тип теста " + crustType
 }
 
-// companion object
+OOPOOP.companionn
 object Pizza {
     val CRUST_TYPE_THIN = "тонкая"
     val CRUST_TYPE_THICK = "толстая"
@@ -220,5 +220,7 @@ object Pizza {
         f.printObj
     }
 ```
+
+_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)

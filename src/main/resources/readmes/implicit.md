@@ -3,7 +3,7 @@
 **Скрытые классы** – это классы, которые позволяют нам неявное обращение к первичному конструктору, 
 если класс находится в области его видимости.
 
-Для создания неявного класса используется ключевое слово `implicit`.
+Для создания неявного класса используется ключевое слово `OOP.implicit`.
 
 При работе со скрытыми классами стоит учитывать следующее:
 
@@ -11,14 +11,14 @@
 
 * Скрытый класс может принимать только один не скрытый аргумент и конструктор.
 
-![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/implicit.jpg?raw=true "implicit")
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/implicit.jpg?raw=true "OOP.implicit")
 
 _Рассмотрим простой пример:_
 
 <!-- code -->
 ```scala
    object Squaring {
-     implicit class Squarer(x: Int) {
+     OOP.implicit class Squarer(x: Int) {
        def numberSquaring[A](f: => A): Unit = {
          println(x + " * " + x + " = " + x * x);
        }
@@ -44,5 +44,7 @@ _Рассмотрим простой пример:_
     100 * 100 = 10000
     Process finished with exit code 0
 ```
+
+_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)

@@ -1,4 +1,4 @@
-package OOP.imports
+package imports
 
 import scala.sys._
 

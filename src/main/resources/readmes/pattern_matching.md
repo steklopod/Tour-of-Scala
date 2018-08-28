@@ -136,4 +136,6 @@ _Вы можете сопоставлять с типом как в след. п
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
 
+_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
+
 ![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/scala-control-structures.jpg?raw=true "scala-control-structures")

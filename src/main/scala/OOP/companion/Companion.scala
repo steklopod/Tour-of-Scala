@@ -1,4 +1,4 @@
-package companion
+package OOP.companion
 
 
 object Companion {
@@ -14,7 +14,7 @@ object Companion {
 }
 
 object PersonTest extends App{
-  import companion.Companion.Person
+  import OOP.companion.Companion.Person
 
   val p = Person("Дима", "Колтович")
   println(p)
@@ -100,7 +100,7 @@ object SomeS {
 }
 
 object SomeSTest extends App {
-  import companion.SomeS.Foo2
+  import OOP.companion.SomeS.Foo2
 
   val f = new Foo2
   f.printObj

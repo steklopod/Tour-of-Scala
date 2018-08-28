@@ -1,4 +1,4 @@
-package OOP.imports
+package imports
 
 import java.io.StringWriter
 import java.util.{ArrayList, HashMap, TreeMap}

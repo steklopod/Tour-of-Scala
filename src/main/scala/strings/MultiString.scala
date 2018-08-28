@@ -1,4 +1,4 @@
-package OOP.strings
+package strings
 
 object MultiString extends App {
 

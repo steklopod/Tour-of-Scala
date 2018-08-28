@@ -1,4 +1,4 @@
-package OOP.option
+package option
 
 class OptionClas() {
   val someMessage: Option[String] = Some("Hello")

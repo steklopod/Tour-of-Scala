@@ -1,4 +1,4 @@
-package OOP.imports
+package imports
 
 class Person(val name: String, val age: Int)
 

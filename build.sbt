@@ -1,6 +1,6 @@
 name := "Functions"
 
-version := "0.1"
+version := "0.5"
 
 scalaVersion := "2.12.5"
 

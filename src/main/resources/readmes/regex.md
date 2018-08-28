@@ -42,6 +42,8 @@
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
 
+_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
+
 [wiki](https://ru.wikipedia.org/wiki/Регулярные_выражения)
 
 [хабр](https://habr.com/post/115825/)

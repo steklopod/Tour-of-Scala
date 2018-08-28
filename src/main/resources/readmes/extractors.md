@@ -67,4 +67,6 @@
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
 
+_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
+
 [еще пример](https://github.com/anton-k/ru-neophyte-guide-to-scala/blob/master/src/p01-extractors.md)

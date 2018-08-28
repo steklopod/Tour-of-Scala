@@ -1,4 +1,4 @@
-package companion
+package OOP.companion
 
 class PersonCompanion(var name: String, var age: Int) {
 

@@ -1,4 +1,4 @@
-package partial
+package OOP.partial
 
 object PartialFunctions extends App {
 

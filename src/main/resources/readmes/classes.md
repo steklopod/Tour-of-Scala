@@ -168,4 +168,6 @@ _«Всё это хорошо» — скажет бывалый боец аут�
 
 * [=> Типаж (trait)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
 
+_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
+
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)

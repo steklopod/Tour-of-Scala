@@ -137,5 +137,6 @@ _Например:_
 
 ![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/classes_ier.png "scala_classes")
 
+_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
 
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)

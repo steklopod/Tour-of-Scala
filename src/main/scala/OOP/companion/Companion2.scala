@@ -1,4 +1,4 @@
-package companion
+package OOP.companion
 
 object SomePerson {
   private val hello = "Hello"

@@ -50,4 +50,6 @@ Int значение возвращаемое из get-метода. Также 
 она была объявлена как хранительница только Int'ов.
 ![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/scala-inheritance2.png "scala-inheritance")
 
+_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
+
 [<= содержание](https://github.com/steklopod/Functions/blob/master/readme.md)
