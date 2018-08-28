@@ -39,6 +39,9 @@
 и объектом`. Scala не имеет статического слова как JAVA, вы можете использовать в качестве замены 
 `объект-компаньон` в Scala.
 
+![alt text](https://github.com/steklopod/Functions/blob/master/src/main/resources/images/companion.png "Обобщения")
+
+
 <!-- code -->
 ```scala
     class Person(val firstName: String, val middleName: String, val lastName: String) {}

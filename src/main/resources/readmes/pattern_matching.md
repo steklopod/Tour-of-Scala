@@ -1,4 +1,5 @@
 ## Сопоставление с образцом
+![alt text](http://www.scala-lang.org/resources/img/pattern-matching-syntax.png "pattern-matching-syntax")
 
 **Сопоставление с образцом** - это механизм проверки значения по шаблону. Успешое совпадение также может деконструировать 
 значение в его составные части. Это более мощная версия оператора _switch_ в Java, и его также можно использовать вместо
@@ -38,6 +39,8 @@
 Это выражение соответствия имеет тип `String`, потому что все случаи возвращают `String`. Поэтому функция `matchTest` возвращает строку.
 
 ### Сопоставление кейс-классов
+
+![alt text](http://www.scala-lang.org/resources/img/basicPattern.png "basicPattern")
 
 Кейс-классы особенно полезны для `паттерн-матчинга`.
 
@@ -110,6 +113,7 @@
 ### Совпадение только по типу
 
 _Вы можете сопоставлять с типом как в след. примере:_
+![alt text](http://www.scala-lang.org/resources/img/scala-control-structures.png "scala-control-structures")
 
 <!-- code -->
 ```scala
