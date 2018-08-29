@@ -1,6 +1,5 @@
 package regex
 
-
 import regex.Regex_2.{input, keyValPattern}
 
 import scala.util.matching.Regex

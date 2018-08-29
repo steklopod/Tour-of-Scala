@@ -9,10 +9,12 @@
 ```scala
     case class User(name: String, age: Int)
     
-    val userBase = List(User("Вася", 28),
+    val userBase = List(
+      User("Вася", 28),
       User("Kelly", 33),
       User("Jennifer", 44),
-      User("Дима", 23))
+      User("Дима", 23)
+      )
     
     val twentySomethings = for (user <- userBase 
       if user.age >=20 && user.age < 30)

@@ -49,5 +49,5 @@ object Main extends App {
 class User {
   private[this] var _name: String = ""
   def name                  = _name toUpperCase
-  def name_=(name: String)   = _name = { if (name != null) name else "" }
+  def name_=(name: String)   = _name =  if (name != null) name else ""
 }
