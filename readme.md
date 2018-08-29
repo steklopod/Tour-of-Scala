@@ -21,6 +21,8 @@ _Если этот проект окажется полезным тебе - н�
 
 * [Вывод типа](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/type_inference.md)
 
+* [Именованные аргументы и аргументы по умолчанию](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Named_arguments_and_default_arguments.md)
+
 * [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
 
 * [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
