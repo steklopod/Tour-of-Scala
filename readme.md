@@ -33,6 +33,8 @@ _Если этот проект окажется полезным тебе - н�
 
 * [Экстракторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/extractors.md)
 
+* [try, catch, finally синтаксис](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/try_catch.md)
+
 * [for-генеративная подстановка](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/for_comprehensions.md)
 
 * [Неявные (подразумеваемые) классы и параметры](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
