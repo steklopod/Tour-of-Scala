@@ -2,13 +2,13 @@ package OOP.constructor
 
 class Person(val имя: String, val фамилия: String, val возраст: Int) {
 
-  def this(firstName: String) {
-    this(firstName, "", 0)
+  def this(имя: String) {
+    this(имя, "", 0)
       println("\n Фамилия и возраст неизвестны.")
   }
 
-  def this(firstName: String, lastName: String) {
-    this(firstName, lastName, 0)
+  def this(имя: String, фамилия: String) {
+    this(имя, фамилия, 0)
       println("\n Возраст неизвестен.")
   }
 
