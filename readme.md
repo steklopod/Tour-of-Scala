@@ -27,6 +27,8 @@ _Если этот проект окажется полезным тебе - н�
 
 * [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
 
+* [Множественные конструкторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/multiple_constructors.md)
+
 * [Сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/pattern_matching.md) 
 
 * [Экстракторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/extractors.md)
