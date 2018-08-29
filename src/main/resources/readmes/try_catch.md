@@ -14,7 +14,7 @@
    {
      case foo: FooException => handleFooException(foo)
      case bar: BarException => handleBarException(bar)
-     case _: Throwable => println("Got some other kind of exception")
+     case   _: Throwable    => println("Got some other kind of exception")
    }
    finally
    {
@@ -52,7 +52,6 @@
 
 Наконец, вот еще пример Scala `try / catch`, где я демонстрирую, как печатать трассировку стека из исключения:
 
-
 <!-- code -->
 ```scala
     def runAppleScriptCommand(c: AppleScriptCommand) {
@@ -62,6 +61,49 @@
       } catch {
         case e: ScriptException => e.printStackTrace
       }
+    }
+```
+
+___
+
+Иногда, когда я пишу небольшие скрипты Scala и программы, я ослабляю бразды и использую `var`. Когда вы это сделаете,
+ вам может потребоваться время от времени создать нулевую переменную (**`var`**, а не `val`), например, когда вам нужно 
+ объявить переменную прямо перед ее использованием в блоке `try, catch, finally`. Я просто столкнулся с этим при 
+ написании почтового клиента Scala IMAP, где мне нужно было создать две переменные непосредственно перед объявлением 
+ `try`, поэтому я мог бы ссылаться на поля в блоке `try`, а также в блоке `finally`.
+
+Вот как объявить `var-переменную` `null`  в Scala:
+
+<!-- code -->
+```scala
+    var store: Store = null
+    var inbox: Folder = null
+```
+
+Как вы можете видеть из этого кода, секрет заключается в том, что вы должны назначить тип переменной при ее объявлении. 
+Если вы этого не сделаете, Scala не будет знать тип данных переменной, поэтому он не позволит вам это сделать, но если 
+вы это сделаете, Scala будет счастлива.
+
+### Полный пример
+Что касается моей конкретной проблемы - нужно объявить переменную Scala прямо перед предложением `try / catch / finally`:
+
+<!-- code -->
+```scala
+    var store: Store  = null
+    var inbox: Folder = null
+    
+    try {
+        store = session.getStore("imaps")
+        inbox = getFolder(store, "INBOX")
+        // rest of the code here ...
+        catch {
+            case  e: NoSuchProviderException => e.printStackTrace()
+                                                System.exit(1)
+            case me: MessagingException      => me.printStackTrace()
+                                                System.exit(2)
+    } finally {
+        inbox.close
+        store.close
     }
 ```
 
