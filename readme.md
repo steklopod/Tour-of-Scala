@@ -15,42 +15,42 @@
 
 * [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Scala_data_types.md)
 
-* [Классы, и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/classes.md)
-
-* [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
-
 * [Вывод типа](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/type_inference.md)
 
-* [Scala и пустота](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
+* [Классы и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/classes.md)
 
-* [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
+* [Типаж (trait)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
+
+* [Скала и пустота (null, Nil, Nothing, None, Unit)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
+
+* [Объект компаньен (companion object)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
 
 * [Конструкторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/multiple_constructors.md)
 
 * [Тип Option](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/option.md)
 
-* [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
+* [Обобщения (дженерики)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
 
 
-#### Pattern matching
+#### Сопоставления 
 
-* [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
+* [Кейс-класс (case class)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
 
-* [Сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/pattern_matching.md) 
+* [Сопоставление с образцом (Pattern matching)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/pattern_matching.md) 
 
 * [Экстракторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/extractors.md)
 
 
 #### Обработка ошибок
 
-* [try, catch, finally синтаксис](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/try_catch.md)
+* [ синтаксис `try`, `catch`, `finally`](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/try_catch.md)
 
 * [Обработка исключений с помощью Try](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/error-handling.md)
 
 * [Тип Either](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/either.md)
 
 
-#### Implicits
+#### Неявное (implicits)
 
 * [Неявные (подразумеваемые) классы и параметры](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
 
