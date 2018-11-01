@@ -19,15 +19,17 @@
 
 * [Типаж](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
 
-* [Scala и пустота](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
-
 * [Вывод типа](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/type_inference.md)
+
+* [Scala и пустота](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
 
 * [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
 
 * [Конструкторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/multiple_constructors.md)
 
 * [Тип Option](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/option.md)
+
+* [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
 
 
 #### Pattern matching
@@ -45,6 +47,8 @@
 
 * [Обработка исключений с помощью Try](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/error-handling.md)
 
+* [Тип Either](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/either.md)
+
 
 #### Implicits
 
@@ -54,10 +58,8 @@
 
 * [Полиморфные методы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/where_does_scala_look_for_implicits.md)
 
-* [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
 
-
-#### Фичи
+#### Фичи и синтаксические конструкции в языке Скала
 
 * [for-генеративная подстановка](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/for_comprehensions.md)
 
