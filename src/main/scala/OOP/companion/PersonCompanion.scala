@@ -24,6 +24,5 @@ object PersonCompanion{
 object DemoPer extends App{
   println(new PersonCompanion("Dima").age)
 
-  //  TODO - вывести
   println(new PersonCompanion("Dima").toString)
 }

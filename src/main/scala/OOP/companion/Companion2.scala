@@ -1,17 +1,16 @@
 package OOP.companion
 
 object SomePerson {
-  private val hello = "Hello"
-  def apply(firstName: String, lastName: String, age: Int): SomePerson
-  = new SomePerson(firstName, lastName, age)
+  private val hello                                                    = "Hello"
+  def apply(firstName: String, lastName: String, age: Int): SomePerson = new SomePerson(firstName, lastName, age)
 }
 
-class SomePerson(firstName: String, lastName: String, age: Int){
+class SomePerson(firstName: String, lastName: String, age: Int) {
   import SomePerson._
   def greet(question: String) = hello + firstName + "!" + question
 }
 
-object SomePersonTest extends App{
+object SomePersonTest extends App {
   //КРАТКИЙ СПОСОБ:
   val hiSimple = SomePerson("Dima", "Aka", 29).greet("Понял пример? ")
   println(hiSimple)
