@@ -1,4 +1,4 @@
-package OOP.implicits
+package implicits
 
 abstract class Monoid[A] {
   def add(x: A, y: A): A
@@ -22,7 +22,7 @@ object ImplicitEx {
 }
 
 object ImplicitExTest extends App{
-  import OOP.implicits.ImplicitEx._
+  import implicits.ImplicitEx._
 
   println(sum(List(1, 2, 3)))       // использует IntMonoid неявно
   println(sum(List("a", "b", "c"))) // использует StringMonoid неявно

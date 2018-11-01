@@ -1,4 +1,4 @@
-package OOP.implicits
+package implicits
 
 
 object Implicit_01 extends App {
@@ -22,7 +22,7 @@ object Squaring {
 }
 
 object SquaringDemo extends App {
-  import OOP.implicits.Squaring._
+  import implicits.Squaring._
 
     100 numberSquaring()
 }

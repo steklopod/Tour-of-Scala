@@ -2,23 +2,18 @@ package extractor
 
 import scala.util.Random
 
+object CustomerID {
 
-object Extractor {
+  def apply(name: String) = s"$name--${Random.nextLong}"
 
-  object CustomerID {
-
-    def apply(name: String) = s"$name--${Random.nextLong}"
-
-    def unapply(customerID: String): Option[String] = {
-      val stringArray: Array[String] = customerID.split("--")
-      if (stringArray.tail.nonEmpty) Some(stringArray.head)
-      else None
-    }
+  def unapply(customerID: String): Option[String] = {
+    val stringArray: Array[String] = customerID.split("--")
+    if (stringArray.tail.nonEmpty) Some(stringArray.head)
+    else None
   }
 }
 
 object ExtraxctorTest extends App {
-  import extractor.Extractor.CustomerID
   val customer1ID = CustomerID("Дима") // Дима--23098234908
 
   customer1ID match {
@@ -28,11 +23,10 @@ object ExtraxctorTest extends App {
 
   val customer2ID      = CustomerID("Вася")
   val CustomerID(name) = customer2ID
-  println(name)  //  Вася
+  println(name) //  Вася
 
   val CustomerID(name2) = "--asdfasdfasdf"
 
 //  val CustomerID(name3) = "-asdfasdfasdf"   // Если совпадений не найдено, будет брошено `scala.MatchError`
-
 
 }

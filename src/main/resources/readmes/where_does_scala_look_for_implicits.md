@@ -5,15 +5,14 @@
 > ! сложно для понимания. Новички в Scala часто спрашивают: **где компилятор ищет `implicits`**?
 
 Методы в Scala можно **`параметризовать`** как `по типу`, так и `по значению`. Синтаксис аналогичен синтаксису 
-общих классов. Параметры типа заключены в квадратные скобки, а значения параметров заключены в круглые скобки.
+обобщенных классов. **Параметры типа заключены в квадратные скобки, а значения параметров заключены в круглые скобки**.
 
 <!-- code -->
 ```scala
   def listOfDuplicates[A](x: A, length: Int): List[A] = {
-    if (length < 1)
-      Nil
-    else
-      x :: listOfDuplicates(x, length - 1)
+    if (length < 1) Nil
+       else 
+       x :: listOfDuplicates(x, length - 1)
   }
       println(listOfDuplicates[Int](3, 4))  // List(3, 3, 3, 3)
       println(listOfDuplicates("La", 8))   // List(La, La, La, La, La, La, La, La)

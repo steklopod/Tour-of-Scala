@@ -1,4 +1,4 @@
-package OOP.either
+package either
 
 import scala.io._
 

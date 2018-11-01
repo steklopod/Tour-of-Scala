@@ -1,10 +1,25 @@
 package matching
 
-import java.awt.{Color, Graphics}
 import java.awt.image.BufferedImage
+import java.awt.{Color, Graphics}
 import java.io.File
+
 import javax.imageio.ImageIO
+
 import scala.math._
+
+/**
+  * После запуска вы сможете найти созданное изображение в корне проекта с именем "koch.png"
+  */
+object FractalLabTest extends App {
+  import matching.FractalLab._
+
+  // рисуем с шагов 2 пикселя цепочку команда 4 поколения.
+  draw(generate("F", 4, next), 2)
+  // сохраняем в файл
+  ImageIO.write(image, "png", new File("koch.png"))
+}
+
 
 /**
   * Представим, что у нас есть некоторый набор команд К. Например К = { F, +, - } :
@@ -61,20 +76,8 @@ object FractalLab {
     var result = new StringBuilder()
     x.foreach {
       case 'F' => result ++= "F+F-F-FF+F+F-F"
-      case i => result += i
+      case i   => result += i
     }
     result.toString
   }
-}
-
-/**
-  * После запуска вы сможете найти созданное изображение в корне проекта с именем "koch.png"
-  */
-object FractalLabTest extends App {
-  import matching.FractalLab._
-
-  // рисуем с шагов 2 пикселя цепочку команда 4 поколения.
-  draw(generate("F", 4, next), 2)
-  // сохраняем в файл
-  ImageIO.write(image, "png", new File("koch.png"))
 }
