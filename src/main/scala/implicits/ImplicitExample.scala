@@ -1,29 +1,24 @@
 package implicits
 
-
-object Implicit_01 extends App {
+object ImplicitExample extends App {
   implicit def strToMyString(x: String): MyString = MyString(x)
-
-  case class MyString(s: String) {
-    def whose = s"I'm yours :] $s"
-  }
 
   println("heh".whose)
 }
 
-//2///////////
+case class MyString(s: String) {
+  def whose = s"I'm yours :] $s"
+}
 
-object Squaring {
+
+//2-й пример - implicit class
+object SquaringDemo extends App {
   implicit class Squarer(x: Int) {
     def numberSquaring[A](f: => A): Unit = {
       println(x + " * " + x + " = " + x * x);
     }
   }
+
+
+  100 numberSquaring ()
 }
-
-object SquaringDemo extends App {
-  import implicits.Squaring._
-
-    100 numberSquaring()
-}
-
