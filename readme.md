@@ -44,6 +44,8 @@ _Если этот проект окажется полезным тебе - н�
 
 * [Неявные преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit_conversions.md)
 
+* [Частично определённые функции](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/partially_applied_functions.md)
+
 * [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
 
 * [Регулярные выражения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/regex.md)
