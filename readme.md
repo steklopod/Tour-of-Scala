@@ -40,9 +40,11 @@ _Если этот проект окажется полезным тебе - н�
 
 * [Неявные (подразумеваемые) классы и параметры](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
 
+* [Неявные преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit_conversions.md)
+
 * [Полиморфные методы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/where_does_scala_look_for_implicits.md)
 
-* [Неявные преобразования](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit_conversions.md)
+* [Тип Option](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/option.md)
 
 * [Частично определённые функции](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/partially_applied_functions.md)
 
