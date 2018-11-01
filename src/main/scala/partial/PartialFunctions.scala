@@ -10,7 +10,11 @@ object PartialFunctions extends App {
     case neg if neg < 0 => neg + neg
   }
 
-  val chained = foo orElse bar
+//  val zero: PartialFunction[Int, String] ={
+//    case 0 ⇒ s"ZERO"
+//  }
+
+  val chained = foo orElse bar /* orElse zero */
 
   println( chained )                   //<function1>
 
@@ -22,6 +26,7 @@ object PartialFunctions extends App {
 
   println( chained(-4) )               //-8
 
-//  println(chained(0)) //Exception in thread "main" scala.MatchError: 0 (of class java.lang.Integer)
+//  println( chained(0) )   //ZERO
+//  println(chained(0))     //Exception in thread "main" scala.MatchError: 0 (of class java.lang.Integer)
 
 }
