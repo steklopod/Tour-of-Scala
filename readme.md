@@ -19,22 +19,22 @@
 
 * [Классы и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/classes.md)
 
-* [Типаж (trait)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
+* [Типаж (`trait`)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
 
-* [Скала и пустота (null, Nil, Nothing, None, Unit)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
+* [Скала и пустота (`null`, `Nil`, `Nothing`, `None`, `Unit`)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
 
-* [Объект компаньен (companion object)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
+* [Объект компаньен (companion `object`)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
 
 * [Конструкторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/multiple_constructors.md)
 
-* [Тип Option](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/option.md)
+* [Тип `Option`](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/option.md)
 
 * [Обобщения (дженерики)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
 
 
 #### Сопоставления 
 
-* [Кейс-класс (case class)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
+* [Кейс-класс (`case class`)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
 
 * [Сопоставление с образцом (Pattern matching)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/pattern_matching.md) 
 
@@ -45,9 +45,9 @@
 
 * [ синтаксис `try`, `catch`, `finally`](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/try_catch.md)
 
-* [Обработка исключений с помощью Try](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/error-handling.md)
+* [Обработка исключений с помощью `Try`](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/error-handling.md)
 
-* [Тип Either](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/either.md)
+* [Тип `Either`](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/either.md)
 
 
 #### Неявное (implicits)
@@ -68,6 +68,7 @@
 * [Именованные аргументы и аргументы по умолчанию](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Named_arguments_and_default_arguments.md)
 
 * [Регулярные выражения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/regex.md)
+
 
 
 _Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
