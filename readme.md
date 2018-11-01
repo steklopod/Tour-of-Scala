@@ -17,19 +17,19 @@
 
 * [Вывод типа](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/type_inference.md)
 
-* [Классы и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/classes.md)
-
 * [Типаж (`trait`)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/traits.md)
 
-* [Скала и пустота (`null`, `Nil`, `Nothing`, `None`, `Unit`)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
+* [Классы и наследование](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/classes.md)
 
 * [Объект компаньен (companion `object`)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
 
 * [Конструкторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/multiple_constructors.md)
 
-* [Тип `Option`](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/option.md)
+* [Скала и пустота (`null`, `Nil`, `Nothing`, `None`, `Unit`)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/unit_nothing_null.md)
 
 * [Обобщения (дженерики)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
+
+* [Тип `Option`](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/option.md)
 
 
 #### Сопоставления 
@@ -47,7 +47,7 @@
 
 * [Обработка исключений с помощью `Try`](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/error-handling.md)
 
-* [Тип `Either`](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/either.md)
+* [_Тип `Either`_](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/either.md)
 
 
 #### Неявное (implicits)
@@ -63,7 +63,7 @@
 
 * [for-генеративная подстановка](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/for_comprehensions.md)
 
-* [Частично определённые функции](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/partially_applied_functions.md)
+* [Частично определенные функции (`partially applied functions`)](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/partially_applied_functions.md)
 
 * [Именованные аргументы и аргументы по умолчанию](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Named_arguments_and_default_arguments.md)
 

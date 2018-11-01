@@ -3,6 +3,7 @@ package partial
 object PartialApplied extends App {
 
   val sample = 1 to 10
+
   val isEven: PartialFunction[Int, String] = {
     case x if x % 2 == 0 => x + " четное число"
   }
@@ -18,5 +19,7 @@ object PartialApplied extends App {
   // ввод за пределами объявленного домена
   val numbers = sample map (isEven orElse isOdd)
 
-  numbers foreach println
+  numbers     foreach println
+  evenNumbers foreach (n ⇒ print(s"$n, "))
+
 }
