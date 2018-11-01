@@ -5,11 +5,13 @@
 
 Пройдя по ссылкам ты найдешь много полезной информации для изучения с примерами. Освоив принципы функционального 
 программирования, ты уже никогда не захочешь возвращаться в мир императивного программирования. Я собрал эти примеры для 
-тебя, мой друг, т.к. хочу чтобы сообщество Скала развивалось и увеличивалось. Выучить данный язык не составит труда. 
-Желаю тебе удачи в изучении. 
+тебя, мой друг, т.к. хочу чтобы **сообщество Скала** развивалось и увеличивалось. Выучить данный язык не составит труда. 
+Желаю тебе удачи и терпения в изучении. 
  
 
 ### Содержание:
+
+#### ООП
 
 * [Типы данных](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Scala_data_types.md)
 
@@ -21,21 +23,30 @@
 
 * [Вывод типа](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/type_inference.md)
 
-* [Именованные аргументы и аргументы по умолчанию](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Named_arguments_and_default_arguments.md)
-
 * [Объект компаньен](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/companion.md)
 
-* [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
-
 * [Конструкторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/multiple_constructors.md)
+
+* [Тип Option](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/option.md)
+
+
+#### Pattern matching
+
+* [Кейс-класс](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/case_class.md)
 
 * [Сопоставление с образцом](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/pattern_matching.md) 
 
 * [Экстракторы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/extractors.md)
 
+
+#### Обработка ошибок
+
 * [try, catch, finally синтаксис](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/try_catch.md)
 
-* [for-генеративная подстановка](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/for_comprehensions.md)
+* [Обработка исключений с помощью Try](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/error-handling.md)
+
+
+#### Implicits
 
 * [Неявные (подразумеваемые) классы и параметры](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/implicit.md)
 
@@ -43,11 +54,16 @@
 
 * [Полиморфные методы](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/where_does_scala_look_for_implicits.md)
 
-* [Тип Option](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/option.md)
+* [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
+
+
+#### Фичи
+
+* [for-генеративная подстановка](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/for_comprehensions.md)
 
 * [Частично определённые функции](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/partially_applied_functions.md)
 
-* [Обобщения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/genericity.md)
+* [Именованные аргументы и аргументы по умолчанию](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/Named_arguments_and_default_arguments.md)
 
 * [Регулярные выражения](https://github.com/steklopod/Functions/blob/master/src/main/resources/readmes/regex.md)
 
