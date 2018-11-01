@@ -24,9 +24,9 @@ _упорядоченные объекты_. В Java объекты, котор�
 ```scala
      trait Ord {
          def < (that: Any): Boolean
-         def <=(that: Any): Boolean = (this &lt; that) || (this == that)
-         def > (that: Any): Boolean = !(this &lt;= that)
-         def >=(that: Any): Boolean = !(this &lt; that)
+         def <=(that: Any): Boolean = (this < that) || (this == that)
+         def > (that: Any): Boolean = !(this <= that)
+         def >=(that: Any): Boolean = !(this < that)
      }
 ```
 
