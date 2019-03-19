@@ -9,14 +9,9 @@ libraryDependencies ++= Seq(
   "org.slf4j"          % "slf4j-api"               % slf4j,
   "org.slf4j"          % "slf4j-simple"            % slf4j,
   "org.scalatest"      %% "scalatest"              % "3.2.0-SNAP10" % Test,
-  "org.scalacheck"     %% "scalacheck"             % "1.13.5" % "test",
-  "junit"              % "junit"                   % "4.12" % Test,
-  "org.junit.jupiter"  % "junit-jupiter-api"       % "5.2.0" % Test,
-  "org.junit.jupiter"  % "junit-jupiter-engine"    % "5.2.0" % Test,
-  "org.junit.jupiter"  % "junit-jupiter-params"    % "5.2.0" % Test,
-  "org.junit.platform" % "junit-platform-launcher" % "1.2.0" % Test,
-  "org.junit.platform" % "junit-platform-engine"   % "1.2.0" % Test,
-  "org.junit.platform" % "junit-platform-runner"   % "1.2.0" % Test,
+  "org.scalacheck"     %% "scalacheck"             % "1.14.0" % "test",
+  "org.junit.jupiter"  % "junit-jupiter-api"       % "5.4.1" % Test,
+  "org.junit.jupiter"  % "junit-jupiter-engine"    % "5.4.1" % Test,
   "com.geirsson"       %% "scalafmt-core"          % "1.5.1",
 )
 

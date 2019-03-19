@@ -1,11 +1,7 @@
-import org.junit.Ignore
 import org.junit.jupiter.api.{DisplayName, Test}
-import org.junit.runner.RunWith
-import org.scalatest.junit.{JUnitRunner, JUnitSuite}
-import org.scalatest.{BeforeAndAfterAll, Matchers}
+import org.scalatest.Matchers
 
-@RunWith(classOf[JUnitRunner])
-class Junit_5_Test extends JUnitSuite with Matchers with BeforeAndAfterAll{
+class Junit_5_Test  extends Matchers {
 
   object ExceptionTest {
     @throws(classOf[RuntimeException])
